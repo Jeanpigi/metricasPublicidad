@@ -26,7 +26,7 @@ func TestTotalROAS(t *testing.T) {
 		gastos float64
 		result float64
 	} {
-		{12000, 4500, 2.6666666666666665},
+		{12000, 4500, 2.67},
 		{13000, 5000, 2.6},
 	}
 

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 )
 
 
@@ -12,6 +13,8 @@ func ROI(ingresos, gastos float64) float64 {
 
 func ROAS(ingresosVentas, gastos float64) float64 {
 	result := ingresosVentas / gastos
+	// redondear en dos decimales
+	result = math.Round(result * 100) / 100
 	return result
 }
 
