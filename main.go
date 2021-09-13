@@ -16,7 +16,6 @@ func ROAS(ingresosVentas, gastos float64) float64 {
 }
 
 func main() {
-	// si mi inversión fue de 1000 dolares y obtuve 3000 de ganancia.
 
 	inversionEmpresa := 1000
 	ingresoEmpresa := 3000
